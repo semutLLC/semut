@@ -248,14 +248,14 @@ By focusing on observable actions and their accumulation over time, the framewor
 
 ## Keywords
 
-Complex Adaptive Systems
-Emergence
-Coordination
-Institutional Emergence
-Social Memory
-Knowledge Management
-Organizational Learning
-Collective Intelligence
-Trace Theory
+Complex Adaptive Systems 
+Emergence 
+Coordination 
+Institutional Emergence 
+Social Memory 
+Knowledge Management 
+Organizational Learning 
+Collective Intelligence 
+Trace Theory 
 Semut
 
