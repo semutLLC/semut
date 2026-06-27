@@ -157,6 +157,14 @@ By connecting traces to higher-order structures, Semut aims to provide tools for
 
 ---
 
+## Status
+
+This repository is an active research project.
+
+The ideas described here are hypotheses under exploration and may evolve as implementations, experiments, and community feedback provide new evidence.
+
+Semut documents both successful and unsuccessful ideas as part of the project's long-term evolution.
+
 ## Author
 
 Timothy Lawrence Sitorus
