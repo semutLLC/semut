@@ -4,6 +4,10 @@
 
 Semut is a coordination observatory and infrastructure for understanding how human systems evolve across layers of organization. Rather than focusing solely on tasks, transactions, or reputation, Semut aims to visualize, preserve, and analyze the emergence of higher-order structures from recorded actions.
 
+Semut envisions a future where human activity, software, and AI continuously learn from one another. Over time, Semut becomes a living record of collaboration, connecting people, organizations, and systems through evolving workflows and shared history.
+
+
+
 The Semut Layer Model consists of:
 
 **Trace → Memory → Knowledge → Norm → Institution → Ideology**
