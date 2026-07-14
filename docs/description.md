@@ -404,3 +404,178 @@ Repositories will be migrated gradually while preserving compatibility.
 Large rewrites should be avoided.
 
 Every migration should reduce duplication and increase reuse without breaking existing applications.
+
+
+---
+
+# Centralized Today, Swarm Tomorrow
+
+The current Semut architecture is intentionally centralized.
+
+Today, the coordination flow resembles:
+
+```
+Human
+
+↓
+
+Routing
+
+↓
+
+Policy
+
+↓
+
+Registry
+
+↓
+
+Execution
+```
+
+This architecture is easier to understand, implement, debug, and validate.
+
+It allows Semut to establish reusable interfaces before exploring more distributed coordination models.
+
+This is **not** considered the final architecture.
+
+---
+
+# Long-Term Research Direction
+
+Semut is inspired by swarm systems.
+
+A swarm does not necessarily eliminate hierarchy.
+
+Instead, it replaces rigid centralized decision-making with many local decisions that collectively produce coordinated behavior.
+
+Examples include:
+
+- ant colonies
+- immune systems
+- neural networks
+- Internet routing
+- distributed databases
+
+Each contains multiple layers of organization without requiring a single global controller.
+
+Semut aims to explore similar principles.
+
+---
+
+# Possible Future Architecture
+
+Rather than one centralized routing component:
+
+```
+Human
+
+↓
+
+Router
+
+↓
+
+Action
+```
+
+Semut may evolve toward specialized routing agents:
+
+```
+Human
+
+↓
+
+Git Agent
+
+Service Agent
+
+GitHub Agent
+
+Calendar Agent
+
+Filesystem Agent
+
+↓
+
+Consensus
+
+↓
+
+Policy
+
+↓
+
+Execution
+```
+
+Likewise, action memories may become distributed rather than centralized.
+
+For example:
+
+```
+Human
+
+↓
+
+Memory Nodes
+
+↓
+
+Candidate Actions
+
+↓
+
+Consensus
+
+↓
+
+Execution
+```
+
+No single component necessarily owns every decision.
+
+---
+
+# semut-core is an Implementation, Not a Final Theory
+
+The current semut-core should be viewed as the first practical implementation of Semut's coordination research.
+
+It is expected to evolve.
+
+Future experimentation may change:
+
+- routing
+- registry
+- policy
+- memory
+- execution
+- workflows
+
+The architecture should evolve based on evidence rather than assumptions.
+
+Changing semut-core as understanding improves is considered progress rather than failure.
+
+---
+
+# Guiding Principle
+
+Semut does not attempt to remove hierarchy.
+
+Instead, it explores whether coordination can emerge from:
+
+- explicit memory
+- reusable actions
+- local knowledge
+- feedback
+- evolving relationships
+- distributed decision-making
+
+The objective is not decentralization for its own sake.
+
+The objective is better coordination.
+
+Centralization and decentralization are implementation choices that should be evaluated empirically.
+
+The architecture should remain flexible enough to support both.
