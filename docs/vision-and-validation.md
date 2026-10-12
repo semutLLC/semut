@@ -59,25 +59,73 @@ Higher-level constraints can influence lower-level dynamics without violating ph
 
 This does not establish that every layer possesses independent agency.
 
-### 2.2 Three philosophical perspectives
 
-Semut can investigate three distinct explanatory approaches:
+### 2.2 Philosophical Perspectives and Operational Mechanisms
+
+Semut investigates how possible states become realized states
+across different layers of reality.
+
+Several philosophical and scientific perspectives help explain
+these processes, but no single perspective is assumed to
+describe every system.
+
+#### Philosophical Perspectives
 
 **Platonic perspective**
-- Ideal forms, reference structures, or desired configurations
-- Useful as an analogy for externally specified goals and design targets
+- Forms, ideals, and reference structures.
+- Provides an analogy for externally specified goals or
+  desired configurations.
+- Does not imply that every system has an ideal target.
 
 **Aristotelian perspective**
-- Potentiality, actuality, organization, and telos
-- Useful for investigating capacities, processes, and goal-directed systems
+- Potentiality, actuality, organization, and telos.
+- Investigates how capacities are realized through processes.
+- Distinguishes goal-directed organization from mere change.
 
 **Darwinian perspective**
-- Variation, inheritance, and differential reproduction
-- Useful for explaining biological adaptation and certain evolutionary algorithms
+- Heritable variation and differential reproductive success.
+- Explains adaptation through natural selection.
+- Applies when the necessary evolutionary conditions exist.
 
-These are not equivalent mechanisms.
+These perspectives are not mutually exclusive, exhaustive,
+or equivalent physical mechanisms.
 
-Not every system undergoes Darwinian evolution, and not every system possesses an intrinsic goal.
+#### Operational Mechanisms
+
+For engineering purposes, Semut distinguishes four
+interacting mechanisms:
+
+| Mechanism | Question | Semut representation |
+|---|---|---|
+| Dynamics | How does a state change? | F, S |
+| Constraints | Which transitions are permitted? | B, E |
+| Feedback and goals | How are outcomes evaluated and regulated? | G, O, S |
+| Variation and selection | How are alternatives generated and retained? | Changes to F, S, or B |
+
+These mechanisms may operate independently, simultaneously,
+or hierarchically.
+
+For example, a biological cell exhibits physical dynamics,
+chemical constraints, regulatory feedback, and evolutionary
+history.
+
+However, not every system requires feedback, goals, agency,
+or Darwinian evolution.
+
+#### Common Architectural Hypothesis
+
+Possible states
+    → Dynamics and constraints
+    → Realized states
+    → Optional feedback, adaptation, or selection
+
+Semut's hypothesis is that these different mechanisms can
+be represented and composed through common bounded
+capability contracts.
+
+This is an engineering abstraction, not a claim that all
+layers of reality share identical causal mechanisms.
+
 
 ### 2.3 Working hypothesis
 
