@@ -60,57 +60,141 @@ Higher-level constraints can influence lower-level dynamics without violating ph
 This does not establish that every layer possesses independent agency.
 
 
-### 2.2 Philosophical Perspectives and Operational Mechanisms
 
-Semut investigates how possible states become realized states
-across different layers of reality.
+### 2.2 Historical and Philosophical Perspectives
 
-Several philosophical and scientific perspectives help explain
-these processes, but no single perspective is assumed to
-describe every system.
+Across history, humans have developed different explanations
+for a fundamental question:
 
-#### Philosophical Perspectives
+**Why is one state realized instead of other possible states?**
 
-**Platonic perspective**
-- Forms, ideals, and reference structures.
-- Provides an analogy for externally specified goals or
-  desired configurations.
-- Does not imply that every system has an ideal target.
+Four broad perspectives provide a useful educational framework.
 
-**Aristotelian perspective**
-- Potentiality, actuality, organization, and telos.
-- Investigates how capacities are realized through processes.
-- Distinguishes goal-directed organization from mere change.
-
-**Darwinian perspective**
-- Heritable variation and differential reproductive success.
-- Explains adaptation through natural selection.
-- Applies when the necessary evolutionary conditions exist.
-
-These perspectives are not mutually exclusive, exhaustive,
-or equivalent physical mechanisms.
-
-#### Operational Mechanisms
-
-For engineering purposes, Semut distinguishes four
-interacting mechanisms:
-
-| Mechanism | Question | Semut representation |
+| Perspective | Why this state? | Key distinction |
 |---|---|---|
-| Dynamics | How does a state change? | F, S |
-| Constraints | Which transitions are permitted? | B, E |
-| Feedback and goals | How are outcomes evaluated and regulated? | G, O, S |
-| Variation and selection | How are alternatives generated and retained? | Changes to F, S, or B |
+| **1. Narrative / Mythological** | Because of a story, divine action, or intentional agent | Explanation through narrative and agency |
+| **2. Essentialist / Teleological** (Plato, Aristotle) | Because of forms, natures, capacities, or ends | Characteristic or ideal outcomes |
+| **3. Evolutionary** (Darwin) | Because variation, inheritance, and selection shaped the outcome | No predetermined final form |
+| **4. Cybernetic** (Wiener, Ashby) | Because feedback and constraints regulate behavior | References, regulation, and adaptation |
 
-These mechanisms may operate independently, simultaneously,
-or hierarchically.
+These perspectives developed at different historical periods,
+but they overlap and are not mutually exclusive or exhaustive.
 
-For example, a biological cell exhibits physical dynamics,
-chemical constraints, regulatory feedback, and evolutionary
-history.
+Mathematical physical dynamics, particularly since Galileo
+and Newton, provide another major explanatory approach:
+states evolve according to mathematical laws and conditions,
+without necessarily requiring purpose, selection, or feedback.
 
-However, not every system requires feedback, goals, agency,
-or Darwinian evolution.
+#### Important Distinctions
+
+**Narrative explanation**
+- Explains events through stories, intentions, or agency.
+- Can communicate meaning without providing a testable mechanism.
+
+**Essentialist and teleological explanation**
+- Plato emphasizes Forms as explanatory ideals.
+- Aristotle investigates potentiality, actuality, natural
+  capacities, and final causes (telos).
+- Their philosophies are distinct and should not be treated
+  as identical theories.
+
+**Evolutionary explanation**
+- Darwinian evolution involves heritable variation and
+  differential reproductive success.
+- Natural selection does not require a predetermined goal.
+- Evolutionary outcomes depend on historical and
+  environmental conditions.
+
+**Cybernetic explanation**
+- Investigates communication, feedback, regulation,
+  and control.
+- Reference values may be explicit, implicit, or adaptive.
+- Feedback does not necessarily require conscious agency.
+
+#### Semut's Educational Position
+
+Semut does not assume that one perspective explains
+all systems.
+
+Instead, Semut aims to help people understand, implement,
+compare, and challenge different explanations using
+a common systems architecture.
+
+---
+
+### 2.3 Operational Mechanisms
+
+Philosophical explanations and historical perspectives
+are distinct from executable engineering mechanisms.
+
+Semut investigates whether different systems can be
+represented using a common bounded state-transition
+architecture:
+
+(I, S, E, B, G) --F--> (O, S')
+
+Where:
+
+- I = Input
+- S = Current state
+- E = Environment
+- B = Boundaries and constraints
+- G = Goal or reference, when applicable
+- F = Transformation
+- O = Observable output
+- S' = Next state
+
+Four interacting operational mechanisms are especially
+useful for implementation and experimentation.
+
+| Mechanism | Central question | Semut representation |
+|---|---|---|
+| **Dynamics** | How does the state change? | F, S |
+| **Constraints** | Which transitions are permitted or feasible? | B, E |
+| **Feedback and control** | How are deviations detected and regulated? | G, O, S |
+| **Variation and selection** | How are alternatives generated and retained? | Changes to S, F, or B |
+
+These mechanisms are not exhaustive and may operate
+independently, simultaneously, or across nested layers.
+
+#### Example: Biological Systems
+
+A living cell can exhibit several mechanisms at once:
+
+1. **Dynamics:** Ion transport and chemical reactions.
+2. **Constraints:** Membrane boundaries, energy availability,
+   and molecular compatibility.
+3. **Feedback:** Regulation of internal conditions.
+4. **Variation and selection:** Heritable changes and
+   differential reproduction across generations.
+
+The same cell may be described at molecular, cellular,
+organismal, or evolutionary levels.
+
+Each level can have different states, transformations,
+boundaries, and validation methods.
+
+#### Goals, Agency, and Public Justification
+
+Not every system possesses a goal or agency.
+
+For systems involving human decisions, Semut can additionally
+represent three distinct questions:
+
+| Dimension | Question |
+|---|---|
+| **Descriptive** | What states and transformations actually occur? |
+| **Normative** | Which outcomes should be preferred, and who decides? |
+| **Operational** | How are chosen goals implemented, evaluated, and revised? |
+
+Goals may be measurable, qualitative, contested, or
+partially observable.
+
+Semut should not treat a declared goal as objectively
+correct merely because it can be represented in software.
+
+Where appropriate, goals, boundaries, and evaluation
+criteria should be inspectable and open to revision.
 
 #### Common Architectural Hypothesis
 
@@ -119,15 +203,18 @@ Possible states
     → Realized states
     → Optional feedback, adaptation, or selection
 
-Semut's hypothesis is that these different mechanisms can
-be represented and composed through common bounded
-capability contracts.
+Semut's hypothesis is that these mechanisms can be
+described, implemented, and composed through reusable
+bounded CapabilityCell contracts.
 
-This is an engineering abstraction, not a claim that all
-layers of reality share identical causal mechanisms.
+The purpose is not to establish one universal explanation
+of reality, but to make different systems easier to
+understand, connect, simulate, validate, and improve.
 
 
-### 2.3 Working hypothesis
+
+
+### 2.4 Working hypothesis
 
 Across domains, systems can often be represented through:
 
