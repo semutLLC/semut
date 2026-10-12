@@ -61,29 +61,27 @@ This does not establish that every layer possesses independent agency.
 
 
 
-### 2.2 Historical and Philosophical Perspectives
+### 2.2 Historical Development of Human Explanations
 
-Across history, humans have developed different explanations
-for a fundamental question:
+Throughout history, humans have developed different frameworks
+to answer a fundamental question:
 
 **Why is one state realized instead of other possible states?**
 
-Four broad perspectives provide a useful educational framework.
+These frameworks reflect the development of human understanding,
+not stages through which nature itself progressed.
 
-| Perspective | Why this state? | Key distinction |
+| Perspective | Why this state? | Key explanation |
 |---|---|---|
-| **1. Narrative / Mythological** | Because of a story, divine action, or intentional agent | Explanation through narrative and agency |
-| **2. Essentialist / Teleological** (Plato, Aristotle) | Because of forms, natures, capacities, or ends | Characteristic or ideal outcomes |
-| **3. Evolutionary** (Darwin) | Because variation, inheritance, and selection shaped the outcome | No predetermined final form |
-| **4. Cybernetic** (Wiener, Ashby) | Because feedback and constraints regulate behavior | References, regulation, and adaptation |
+| **1. Narrative / Mythological** | Because of divine action, intention, or a story | Narrative and agency |
+| **2. Essentialist / Teleological** (Plato, Aristotle) | Because of forms, natures, capacities, or ends | Form and purpose |
+| **3. Mathematical / Physical** (Galileo, Newton) | Because physical states evolve according to mathematical laws and conditions | Dynamics and causation |
+| **4. Evolutionary** (Darwin) | Because heritable variation and differential reproduction shaped the outcome | Evolution without predetermined final forms |
+| **5. Cybernetic / Systems** (Wiener, Ashby, Noble) | Because feedback, regulation, and multilevel interactions influence outcomes | Control, adaptation, and organizational constraints |
 
-These perspectives developed at different historical periods,
-but they overlap and are not mutually exclusive or exhaustive.
-
-Mathematical physical dynamics, particularly since Galileo
-and Newton, provide another major explanatory approach:
-states evolve according to mathematical laws and conditions,
-without necessarily requiring purpose, selection, or feedback.
+These perspectives are neither mutually exclusive nor exhaustive.
+Their historical development overlaps, and later frameworks do
+not necessarily replace earlier ones.
 
 #### Important Distinctions
 
@@ -98,6 +96,13 @@ without necessarily requiring purpose, selection, or feedback.
 - Their philosophies are distinct and should not be treated
   as identical theories.
 
+**Mathematical and physical explanation**
+- Galileo and Newton helped establish mathematical descriptions
+  of motion and physical interactions.
+- Physical dynamics can be linear or nonlinear.
+- Mathematical laws describe state transitions without
+  necessarily requiring goals or agency.
+
 **Evolutionary explanation**
 - Darwinian evolution involves heritable variation and
   differential reproductive success.
@@ -105,27 +110,33 @@ without necessarily requiring purpose, selection, or feedback.
 - Evolutionary outcomes depend on historical and
   environmental conditions.
 
-**Cybernetic explanation**
-- Investigates communication, feedback, regulation,
-  and control.
-- Reference values may be explicit, implicit, or adaptive.
-- Feedback does not necessarily require conscious agency.
+**Cybernetic and systems explanation**
+- Cybernetics investigates feedback, communication,
+  regulation, and control.
+- Systems biology investigates interactions across
+  organizational levels.
+- Denis Noble emphasizes multilevel causation and the
+  influence of higher-level organization on lower-level
+  processes.
+- These approaches build on earlier scientific frameworks
+  rather than replacing them.
 
 #### Semut's Educational Position
 
-Semut does not assume that one perspective explains
-all systems.
+Semut does not assume that one explanatory perspective
+applies universally.
 
-Instead, Semut aims to help people understand, implement,
-compare, and challenge different explanations using
-a common systems architecture.
+Instead, Semut aims to make different perspectives
+understandable, implementable, comparable, and testable
+where appropriate.
 
 ---
 
-### 2.3 Operational Mechanisms
+### 2.3 Operational Mechanisms Across Systems
 
-Philosophical explanations and historical perspectives
-are distinct from executable engineering mechanisms.
+Historical explanations describe how humans understand
+systems. Operational mechanisms describe how systems
+actually change, interact, and regulate themselves.
 
 Semut investigates whether different systems can be
 represented using a common bounded state-transition
@@ -144,42 +155,45 @@ Where:
 - O = Observable output
 - S' = Next state
 
-Four interacting operational mechanisms are especially
-useful for implementation and experimentation.
+#### Common Operational Mechanisms
 
 | Mechanism | Central question | Semut representation |
 |---|---|---|
-| **Dynamics** | How does the state change? | F, S |
-| **Constraints** | Which transitions are permitted or feasible? | B, E |
-| **Feedback and control** | How are deviations detected and regulated? | G, O, S |
+| **Dynamics** | How does a state change? | F, S |
+| **Constraints** | Which transitions are physically or logically possible? | B, E |
+| **Feedback and control** | How are outcomes observed and regulated? | G, O, S |
 | **Variation and selection** | How are alternatives generated and retained? | Changes to S, F, or B |
 
-These mechanisms are not exhaustive and may operate
-independently, simultaneously, or across nested layers.
+These mechanisms can operate independently, simultaneously,
+or across nested organizational levels.
 
-#### Example: Biological Systems
+They are not exhaustive, and not every system requires
+feedback, goals, agency, or evolution.
 
-A living cell can exhibit several mechanisms at once:
+#### Example: Biological Cell
 
-1. **Dynamics:** Ion transport and chemical reactions.
+A biological cell exhibits multiple interacting mechanisms:
+
+1. **Dynamics:** Ion transport, chemical reactions, and
+   molecular interactions.
 2. **Constraints:** Membrane boundaries, energy availability,
    and molecular compatibility.
 3. **Feedback:** Regulation of internal conditions.
 4. **Variation and selection:** Heritable changes and
    differential reproduction across generations.
 
-The same cell may be described at molecular, cellular,
+The same cell can be studied at molecular, cellular,
 organismal, or evolutionary levels.
 
-Each level can have different states, transformations,
+Each level can expose different states, transformations,
 boundaries, and validation methods.
 
 #### Goals, Agency, and Public Justification
 
 Not every system possesses a goal or agency.
 
-For systems involving human decisions, Semut can additionally
-represent three distinct questions:
+For systems involving human decisions, Semut can distinguish
+three questions:
 
 | Dimension | Question |
 |---|---|
@@ -204,13 +218,12 @@ Possible states
     → Optional feedback, adaptation, or selection
 
 Semut's hypothesis is that these mechanisms can be
-described, implemented, and composed through reusable
+described, implemented, and composed through reusable,
 bounded CapabilityCell contracts.
 
-The purpose is not to establish one universal explanation
+The objective is not to establish one universal explanation
 of reality, but to make different systems easier to
 understand, connect, simulate, validate, and improve.
-
 
 
 
