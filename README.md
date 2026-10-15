@@ -1,6 +1,8 @@
 # Semut
 
-Semut is a framework and collection of projects exploring how coordination emerges from recorded actions.
+Semut is a cybernetics-inspired architecture for representing, composing, observing, and validating bounded systems across domains, while preserving their domain-specific laws, complexity, and autonomy.
+
+A framework and collection of projects exploring how coordination emerges from recorded actions.
 
 At its core is the observation that large-scale systems—communities, organizations, markets, and civilizations—are built upon accumulated traces of activity. These traces form memories, memories enable knowledge, knowledge shapes norms, norms are preserved by institutions, and institutions support ideologies.
 
